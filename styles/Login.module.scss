@@ -1,0 +1,34 @@
+@import "./theme";
+
+.card {
+    min-width: 330px;
+    width: 50%;
+}
+
+.form {
+    input:not(.is-invalid),
+    input:not(.is-valid) {
+        padding-right: 0.75em;
+    }
+
+    small {
+        color: $danger;
+    }
+}
+
+.error {
+    color: $danger;
+}
+
+.link {
+    color: $warning;
+    cursor: pointer;
+    margin-left: 0.5em;
+    &:hover {
+        color: $warning;
+    }
+}
+
+.container {
+    height: 100vh;
+}
