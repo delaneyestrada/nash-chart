@@ -3,7 +3,7 @@ service-account.json
 # dependencies
 /out_publish/
 /out_functions/
-
+.env
 .vscode
 
 node_modules
